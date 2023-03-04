@@ -1,0 +1,37 @@
+{
+    "header": {
+        "home":"Inicio",
+        "skills":"Skills",
+        "soft-skills":"Soft Skills",
+        "profile":"Perfil",
+        "projects":"Proyectos",
+        "title":"Desarrollador Full Stack"
+    },
+    "about": {
+        "title":"Conóceme",
+        "content1":"Desarrollador Full-Stack, soy un apasionado de la programación al que le gustan los retos difíciles. Me gusta trabajar en equipo y aprender cosas nuevas todos los días. Como atleta élite, no me asusta el trabajo duro y soy perseverante y disciplinado",
+        "content2":"Al igual que como atleta, empecé a correr con 37 años, comencé un poco tarde a programar, aunque siempre he sido un apasionado de la programación y los ordenadores pero tuve que trabajar en otros campos.",
+        "content3":"Esto me sirvió para aprender a trabajar en equipo, incluso con gente que no hablaba mi idioma, a pesar de tener un nivel alto de inglés trabaje en países como Armenia o Argelia, donde prácticamente no se habla.",
+        "content4":"Pero siempre intento sacar lo mejor de mi en todo lo que hago, me comprometo con mi trabajo y me gusta el trabajo bien hecho."
+    },
+    "skills": {
+        "experience":"Mi experiencia:",
+        "years":"años"
+    },
+    "projects": {
+        "title": "Mis Proyectos"
+    },
+    "softSkills": {
+        "title":"Entre mis soft skills estas son las más importantes",
+        "perserverant": "Perserverancia",
+        "teamWork": "Trabajo en equipo",
+        "problemSolve": "Resolución de problemas",
+        "responsability": "Responsabilidad",
+        "adaptability": "Adaptabilidad",
+        "empathy": "Empatía",
+        "workEthic": "Ética de trabajo"
+    },
+    "footer": {
+        "charge":"Desarrollador Full Stack"
+    }
+}

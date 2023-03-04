@@ -1,0 +1,10 @@
+.footer-container {
+    position: absolute;
+    inset: auto 0 0 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 80px;
+}

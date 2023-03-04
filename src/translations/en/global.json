@@ -1,0 +1,36 @@
+{
+    "header": {
+        "home":"Home",
+        "skills":"Skills",
+        "soft-skills":"Soft Skills",
+        "profile":"Profile",
+        "projects":"Projects",
+        "title":"Full Stack Developer"
+    },
+    "about": {
+        "title":"About me",
+        "content1":"Full-Stack Web Developer, fan of programming who love hard challenges. I love working on team and learn new things every single day. As an elite athlete, I don’t fear hard-work, and I am perseverant and disciplined",
+        "content2":"Like I did as athlete, I started run when I was 37 years old, I also started a bit late to code, although I always like code and computers but I've had to work in others fields.",
+        "content3":"But I always try to do my best in everything I do, I am committed to my work and I like things well done."
+    },
+    "skills": {
+        "experience":"My experience:",
+        "years":"years"
+    },
+    "projects": {
+        "title": "My Projects"
+    },
+    "softSkills": {
+        "title":"Among my soft skills these are the most important ones",
+        "perserverant": "Perserverance",
+        "teamWork": "Teamwork",
+        "problemSolve": "Problem-solving",
+        "responsability": "Responsability",
+        "adaptability": "Adaptability",
+        "empathy": "Empathy",
+        "workEthic": "Work ethic"
+    },
+    "footer": {
+        "charge":"Full Stack Developer"
+    }
+}

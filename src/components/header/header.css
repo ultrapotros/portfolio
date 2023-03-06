@@ -2,60 +2,70 @@ img {
     width: 100%;
     border-radius: 10px;
 }
+
 .language-buttons {
     width: clamp(20px, 5vw, 50px);
     aspect-ratio: 3 / 2;
 }
+
 .language-buttons:hover {
     cursor: pointer;
     opacity: .7;
-    /* border-radius: 5px; */
-    /* background-color: transparent; */
 }
+
 .language-options {
     display: flex;
     justify-content: flex-end;
     padding: 1rem 1rem 0 0;
-    gap:.2rem;
+    gap: .2rem;
 }
+
 .top-header {
     padding: 0 10vmin;
 }
+
 .top-header h1 {
     font-size: clamp(1rem, 15vw, 5rem);
     font-weight: bold;
     margin-bottom: .2em;
     margin-left: .4em;
     color: transparent;
-    background-image: linear-gradient(180deg,rgb(222, 161, 92),rgb(225, 242, 138));
+    background-image: linear-gradient(180deg, rgb(222, 161, 92), rgb(225, 242, 138));
     background-clip: text;
     -webkit-background-clip: text;
 }
+
 .top-header h2 {
     margin: 0 auto 1em 1.5em;
     font-size: clamp(.3rem, 8vw, 2rem);
-    color:var(--secondary);
+    color: var(--secondary);
 }
-.navigation-container{
-    height:22px;
+
+.navigation-container {
+    height: 22px;
 }
+
 .navigation {
     display: flex;
     justify-content: flex-end;
     gap: 2em;
     padding-right: 1em;
 }
+
 .navigation-options {
     color: var(--white-text);
 }
-.navigation-options:not(.active):hover  {
+
+.navigation-options:not(.active):hover {
     transform: scale(1.2);
 }
+
 .active {
     color: var(--active-link);
-    color:rgb(222, 161, 92);
+    color: rgb(222, 161, 92);
     transform: scale(1.1);
 }
+
 .desplegable {
     display: flex;
     flex-direction: column;
@@ -67,12 +77,14 @@ img {
     align-items: flex-end;
     margin: 0 1rem 0 auto;
     opacity: 0;
-    
+
 }
+
 .desplegable:hover {
     cursor: pointer;
 }
-.desplegable > div {
+
+.desplegable>div {
     background: var(--white-text);
     height: 6px;
     width: 100%;
@@ -80,22 +92,27 @@ img {
     transition: all .5s;
     transform-origin: left;
 }
+
 .open div:first-child {
     transform: rotate(45deg);
 }
+
 .open div:nth-child(2) {
     opacity: 0;
 }
+
 .open div:last-child {
     transform: rotate(-45deg);
 }
+
 @media (max-width: 768px) {
     .desplegable {
         opacity: 1;
     }
+
     .navigation {
-        opacity:.7;
-        padding:1rem;
+        opacity: .7;
+        padding: 1rem;
         flex-direction: column;
         position: absolute;
         left: -150px;
@@ -105,33 +122,29 @@ img {
         border-radius: 0 0 10px 0;
         background-color: var(--color8);
     }
+
     .navigation-showed {
         animation: show-menu .5s ease-out forwards;
     }
-/*     .navigation-hidden {
-        opacity:0;
-    } */
+
     .navigation-hidden {
         animation: hide-menu .5s ease-in-out forwards;
     }
 }
-/* @keyframes show-menu {
-    to {
-        transform: translateX(-300px)
-    }
-} */
+
 @keyframes show-menu {
     to {
         transform: translateX(150px)
     }
 }
+
 @keyframes hide-menu {
     0% {
         transform: translateX(150px)
     }
+
     100% {
         transform: translateX(-150px)
     }
 
 }
-

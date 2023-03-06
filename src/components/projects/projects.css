@@ -4,14 +4,22 @@
     flex-wrap: wrap;
     align-items: center;
 }
+
 .project-img {
-    filter: grayscale(100%) contrast(200%);
-    transition: filter 500ms ease-out;
-    width: clamp(1rem, 15vw, 5rem);;
+    width: clamp(1rem, 15vw, 5rem);
     aspect-ratio: 1/1;
 }
-.project-img:hover,
-.some_img:focus-within {
-    filter: grayscale(0%) contrast(100%);
-    cursor: pointer;
+
+@media(hover: hover) {
+
+    .project-img {
+        filter: grayscale(100%) contrast(200%);
+        transition: filter 500ms ease-out;
+    }
+
+    .project-img:hover,
+    .some_img:focus-within {
+        filter: grayscale(0%) contrast(100%);
+        cursor: pointer;
+    }
 }
